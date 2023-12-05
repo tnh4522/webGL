@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model Transformation</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h4>
+      ĐỀ TÀI : LẬP TRÌNH WEBGL ĐỂ HIỂN THỊ ĐỐI TƯỢNG ĐỒ HỌA, TỰ XÂY DỰNG CÁC HÀM
+      SỬ DỤNG MA TRẬN BIẾN ĐỔI VẬT THỂ (MODEL TRANSFORMATION)
+    </h4>
+    <div class="input-container">
+      <label for="edgeLength">Nhập vào chiều dài cạnh a: </label>
+      <input type="number" id="edgeLength" name="edgeLength" />
+      <button onclick="updateCubeSize()">Cập Nhật Kích Thước</button>
+    </div>
+    <div class="input-container">
+      <label for="rotationAngle">Nhập vào góc theta (độ):</label>
+      <input type="number" id="rotationAngle" name="rotationAngle" />
+      <button onclick="updateRotation()">Áp Dụng Quay</button>
+    </div>
+    <div class="container">
+      <canvas width="570" height="570" id="my_Canvas"></canvas>
+      <div id="matrixContainer"></div>
+    </div>
+    <script src="./script/cube.js"></script>
+  </body>
+</html>

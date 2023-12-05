@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    padding: 30px;
+}
+
+body h4 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-container {
+    width: 100%;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1em;
+}
+
+.input-container label {
+    font-size: 1.0em;
+    margin: 0.5em;
+}
+
+.input-container button {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1em
+}
+
+#my_Canvas {
+    width: 50%;
+    height: 50%;
+    border: 1px solid #000;
+    margin: 0.5em;
+}
+
+#matrixContainer {
+    color: #000;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 50%;
+    font-size: clamp(1rem, 1.4783vw + 0.3043rem, 2rem);
+    font-family: Roboto;
+    padding: 0.5em;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
